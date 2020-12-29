@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" android:background="@drawable/gradient">
+
+    <!--            android:hint="@string/reminder" />-->
+
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="15"
+            android:id="@+id/button1"
+            style="@style/ButtonsGreen"
+            android:layout_alignRight="@+id/button5"
+            android:clickable="true"
+            android:layout_marginRight="3dp" android:layout_marginEnd="3dp" android:layout_alignEnd="@+id/button5"
+            android:layout_marginTop="3dp" android:layout_alignParentTop="true" tools:ignore="OnClick"/>
+    <Button android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:text="15"
+
+            android:layout_alignParentRight="false"
+
+            style="@style/ButtonsWhite"
+
+            android:layout_above="@id/button3" android:layout_marginBottom="-117dp"/>
+    <Button
+            android:text="15"
+            android:layout_width="wrap_content"
+            style="@style/ButtonsBlack"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_alignParentRight="false"
+            android:width="@android:dimen/app_icon_size"
+            android:layout_marginTop="0dp" android:layout_alignParentTop="true"/>
+    <Button
+            android:text="15"
+            android:layout_width="wrap_content"
+            style="@style/ButtonsBlue"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:layout_alignRight="@+id/button3" android:layout_marginRight="-86dp"
+            android:layout_marginEnd="-91dp"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="true" android:layout_marginTop="64dp"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+

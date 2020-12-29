@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/myrect.xml -->
+
+
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <solid android:color="#9E7AA8" />
+    <corners android:radius="3dp" />
+
+<!--    <stroke-->
+<!--            android:width="3dp"-->
+<!--            android:color="#878787"-->
+<!--    />-->
+
+    <corners
+            android:radius="14dp"
+    />
+
+</shape>
+
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ru.avbugorov.myschooldiary.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:animateLayoutChanges="true"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+
+              android:textColor="#FFFFFF"
+>
+
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                 android:stretchColumns="*"
+                 android:layout_weight="0"
+                 android:textColor="#FFFFFF"
+                 android:textSize="50sp"
+                 android:id="@+id/tlTable1"/>
+
+    <ru.avbugorov.myschooldiary.SquareButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/squareButton"
+            android:layout_weight="0"
+
+            android:textColor="#FFFFFF"
+
+
+
+            android:background="@drawable/mybuttons"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+
+
+    />
+
+</ru.avbugorov.myschooldiary.SquareLayout>
+
+

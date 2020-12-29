@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"> -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+    <!-- Customize your theme here. -->
+<!--        <item name="colorPrimary" type="drawable">@color/colorPrimary</item>-->
+
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--        <item name="colorAccent">@color/colorAccent</item>-->
+
+<item name="android:background"></item>
+<item name="android:text"></item>
+<item name="android:textSize">20dp</item>
+<!--<item name="android:textColor">#FFFFFF</item>-->
+<!--        <item name="dialogTheme"></item>-->
+
+
+</style>
+
+    <style name="ButtonsBlue" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/mybuttonsblue</item>
+        <item name="android:text"></item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ButtonsGreen" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/mybuttonsgreen</item>
+        <item name="android:text"></item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ButtonsBlack" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/mybuttonsblask</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ButtonsWhite" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/mybuttonswhite</item>
+        <item name="android:text"></item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
