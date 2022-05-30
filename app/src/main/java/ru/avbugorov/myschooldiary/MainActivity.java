@@ -69,9 +69,9 @@ public class MainActivity extends AppCompatActivity {
 
            }
 
-    private ActionBar getSupportActionBar() {
-        return null;
-    }
+//    public ActionBar getSupportActionBar() {
+//        return null;
+//    }
 
 
     private void initStir(int countStir) {
